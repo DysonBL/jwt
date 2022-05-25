@@ -1,0 +1,162 @@
+.offcanvas {
+  top: 2px;
+  left: 3px;
+  width: 200px;
+  color: #ebeff5;
+  background-color: rgb(20, 20, 246);
+}
+.listbody {
+  background-color: rgb(178, 194, 246);
+  padding: 3rem;
+  font-size: 2rem;
+  font-family: cursive;
+  font-weight: 600;
+}
+
+.header {
+  background-color: #2360ef;
+  color: #f5faf5;
+}
+.menu {
+  width: 35px;
+  height: 4px;
+  background-color: rgb(250, 246, 246);
+  margin: 6px 0;
+}
+.slideBody {
+  background-color: rgb(241, 244, 249);
+}
+.myMenu {
+  list-style: none;
+  padding: 61px;
+  letter-spacing: 1px;
+  padding: 10px;
+  color: rgb(3, 3, 3);
+  font-weight: 700;
+  font-size: large;
+  display: block;
+}
+
+/*create dropdown*/
+.subnavbtn {
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  color: rgb(244, 245, 248);
+  padding: 13px;
+  background-color: #122ee0;
+  font-family: cursiv;
+  margin:2px;
+}
+
+.subnav-content {
+  display: none;
+  left: 0;
+  background-color: rgb(221, 221, 239);
+  width: 100%;
+}
+
+.subnav-content a:hover {
+  background-color: rgb(245, 246, 251);
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+  background-color: rgb(230, 251, 233);
+}
+.items {
+  padding: 2px;
+  text-decoration: none;
+  font-size: 10px;
+  color: #f5faf5;
+  display: block;
+  list-style: none;
+  background-color: rgb(7, 68, 182);
+}
+
+.items {
+  color: #ebeff5;
+  background-color: #2360ef;
+  font-size: 20px;
+  padding: 8px;
+}
+.element {
+  color: rgb(250, 22, 22);
+  background-color: #ebeff5;
+  font-size: 1rem;
+}
+
+/* (A) LIST TO MENU */
+.tree,
+.section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tree {
+  background-color: #122ee0;
+  font-size: large;
+  padding: 2rem;
+}
+.tree li {
+  border-bottom: 2px solid  #2360ef;
+  padding: 15px 10px;
+}
+.tree li:last-child {
+  border: 0;
+}
+
+.section ul {
+  display: none;
+}
+.section input:checked ~ ul {
+  display: block;
+}
+
+.section input[type="checkbox"] {
+  display: none;
+}
+
+.section {
+  position: relative;
+  padding-left: 35px !important;
+}
+.section label:after {
+  content: "\0002B";
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  text-align: center;
+  font-size:3rem;
+  color: rgb(242, 57, 57);
+  transition: all 0.5s;
+}
+.section input:checked ~ label:after {
+  color: #23c37a;
+  transform: rotate(45deg);
+}
+.section ul {
+  margin-top:1rem;
+}
+ .section ul li {
+  color: #f4e6e6;
+  font-size:1rem;
+} 
+.child::after{
+  color: #ffeefe;
+  transform: rotate(45deg);
+}
+.Shops{
+background-color: #23c37a;
+}
+.no{
+  background-color: rgb(109, 125, 244);
+}
+.juice{
+  background-color: chartreuse;
+}
+.glass{
+  background-color: coral;
+}
